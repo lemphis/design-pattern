@@ -12,6 +12,13 @@
 2. Factory Method Pattern
     - 구체적으로 어떤 instance를 만들지는 sub class가 정한다.
     - 다양한 구현체(product)가 있고, 그 중에서 특정한 구현체를 만들 수 있는 다양한 factory(creator)를 제공할 수 있다.
+    - factory를 구현하는 방법(inheritance)에 초점을 둠
+    - 구체적인 객체 생성 과정을 하위 또는 구체적인 class로 옮기는 것이 목적
+3. Abstract Factory Pattern
+   - 서로 관련있는 여러 객체를 만들어주는 interface
+   - 구처젝으로 어떤 class의 instance를(concrete product) 사용하는지 감출 수 있다.
+   - factory를 사용하는 방법(composition)에 초점을 둠
+   - 관련 있는 여러 객체를 구체적인 class에 의존하지 않고 만들 수 있게 해주는 것이 목적
 
 ## 구조 관련 Design Pattern
 
