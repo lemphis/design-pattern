@@ -21,4 +21,5 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
         this.display();
     }
 
+
 }
