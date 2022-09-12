@@ -2,10 +2,10 @@ package observer.push;
 
 public interface Subject {
 
-    void registerObserver(Observer o);
+	void registerObserver(Observer o);
 
-    void removeObserver(Observer o);
+	void removeObserver(Observer o);
 
-    void notifyObserver();
+	void notifyObserver();
 
 }

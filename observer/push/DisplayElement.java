@@ -2,6 +2,6 @@ package observer.push;
 
 public interface DisplayElement {
 
-    void display();
+	void display();
 
 }
