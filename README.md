@@ -22,6 +22,13 @@
 4. Builder Pattern
     - 동일한 프로세스를 거쳐 다양한 구성의 instance를 만드는 방법
     - (복잡한) 객체를 만드는 process를 독립적으로 분리할 수 있다.
+5. Prototype Pattern
+    - 기존 instance를 복제하여 새로운 instance를 만드는 방법
+    - 복제 기능을 갖추고 있는 기존 instance를 prototype으로 사용해 새 instance를 만들 수 있다.
+    - 복잡한 객체를 만드는 과정을 숨길 수 있다.
+    - 기존 객체를 복제하는 과정이 새 인스턴스를 만드는 것보다 비용(시간 또는 메모리)적인 면에서 효율적일 수 있다.
+    - 추상적인 타입을 return 할 수 있다.
+    - 복잡한 객체를 만드는 과정 자체가 복잡할 수 있다. (특히, 순환 참조가 있는 경우)
 
 ## 구조 관련 Design Pattern
 
