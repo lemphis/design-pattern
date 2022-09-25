@@ -9,12 +9,12 @@ public class GithubRepository {
 		return user;
 	}
 
-	public String getName() {
-		return name;
-	}
-
 	public void setUser(String user) {
 		this.user = user;
+	}
+
+	public String getName() {
+		return name;
 	}
 
 	public void setName(String name) {

@@ -16,20 +16,20 @@ public class GithubIssue implements Cloneable {
 		return id;
 	}
 
-	public String getTitle() {
-		return title;
-	}
-
-	public GithubRepository getRepository() {
-		return repository;
-	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
 
+	public String getTitle() {
+		return title;
+	}
+
 	public void setTitle(String title) {
 		this.title = title;
+	}
+
+	public GithubRepository getRepository() {
+		return repository;
 	}
 
 	public void setRepository(GithubRepository repository) {
