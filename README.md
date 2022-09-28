@@ -49,6 +49,14 @@
     - 추상적인 코드와 구체적인 코드를 분리할 수 있다.
     - 계층 구조가 늘어나 복잡도가 증가할 수 있다.
 
+3. Composite Pattern
+    - 그룹 전체와 개별 객체를 동일하게 처리할 수 있는 pattern
+    - client 입장에서는 전체나 부분이나 모두 동일한 component로 인식할 수 있는 계층 구조를 만든다. (Part-Whole Hierarchy)
+    - 복잡한 트리 구조를 편리하게 사용할 수 있다.
+    - 다형성과 재귀를 활용할 수 있다.
+    - client 코드를 변경하지 않고 새로운 element type을 추가할 수 있다. (OCP 원칙)
+    - 트리를 만들어야 하기 때문에 (공통된 interface를 정의해야 하기 때문에) 지나치게 일반화해야 하는 경우도 생길 수 있다.
+
 ## 행동 관련 Design Pattern
 
 1. Strategy Pattern
