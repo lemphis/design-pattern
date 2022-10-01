@@ -57,6 +57,13 @@
     - client 코드를 변경하지 않고 새로운 element type을 추가할 수 있다. (OCP 원칙)
     - 트리를 만들어야 하기 때문에 (공통된 interface를 정의해야 하기 때문에) 지나치게 일반화해야 하는 경우도 생길 수 있다.
 
+4. Decorator Pattern
+    - 기존 코드를 수정하지 않 부가 기능을 추가하는 pattern
+    - 상속이 아닌 위임을 사용하여 보다 유연하게(runtime) 부가 기능을 추가하는 것도 가능하다.
+    - 새로운 class를 만들지 않고 기존 기능을 조합할 수 있다.
+    - compile time이 아닌 runtime에 dynamic하게 기능을 변경할 수 있다.
+    - decorator를 조합하는 코드가 복잡할 수 있다.
+
 ## 행동 관련 Design Pattern
 
 1. Strategy Pattern
