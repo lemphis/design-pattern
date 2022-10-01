@@ -69,6 +69,11 @@
     - sub system에 대한 의존성을 한 곳으로 모을 수 있다.
     - facade class가 sub system에 대한 모든 의존성을 가지게 된다.
 
+6. Flyweight Pattern
+    - 객체를 가볍게 만들어 메모리 사용을 줄이는 pattern
+    - 자주 변하는 속성(또는 외적인 속성, extrinsic)과 변하지 않는 속성(또는 내적인 속성, intrinsic)을 분리하고 재사용하여 메모리 사용을 줄일 수 있다.
+    - 코드의 복잡도가 증가한다.
+
 ## 행동 관련 Design Pattern
 
 1. Strategy Pattern
