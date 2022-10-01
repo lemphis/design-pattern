@@ -64,6 +64,11 @@
     - compile time이 아닌 runtime에 dynamic하게 기능을 변경할 수 있다.
     - decorator를 조합하는 코드가 복잡할 수 있다.
 
+5. Facade Pattern
+    - 복잡한 sub system 의존성을 최소화하는 pattern
+    - sub system에 대한 의존성을 한 곳으로 모을 수 있다.
+    - facade class가 sub system에 대한 모든 의존성을 가지게 된다.
+
 ## 행동 관련 Design Pattern
 
 1. Strategy Pattern
