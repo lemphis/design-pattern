@@ -97,10 +97,16 @@
     - command 객체를 로깅, 영속화, 네트워크 전송 등 다양한 방법으로 활용할 수 있다.
     - 코드가 복잡하고 클래스가 많아진다.
 
-3. Strategy Pattern
+3. Interpreter pattern
+    - 자주 등장하는 문제를 간단한 언어로 정의하고 재사용하는 pattern
+    - 반복되는 문제 패턴을 언어 또는 문법으로 정의하고 확장할 수 있다.
+    - 기존 코드를 변경하지 않고 새로운 expression을 추가할 수 있다. (OCP 원칙)
+    - 복잡한 문법을 표현하려면 expression과 parser가 복잡해진다.
+
+4. Strategy Pattern
     - 알고리즘군을 정의하고 각각을 캡슐화하여 교환에서 사용할 수 있도록 만든다.
     - 이 패턴을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.
 
-4. Observer Pattern
+5. Observer Pattern
     - 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식이다.
     - 일대다(one-to-many, subject or publisher(1) : observer(N)) 의존성을 정의한다.
