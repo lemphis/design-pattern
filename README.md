@@ -90,10 +90,17 @@
     - handler마다 본인이 해야할 일만 가지고 있다. (SRP 원칙)
     - 코드의 흐름이 많아져 디버깅이 어려울 수 있다.
 
-2. Strategy Pattern
+2. Command Pattern
+    - 요청을 캡슐화하여 호출자(invoker)와 수신자(receiver)를 분리하는 pattern
+    - 기존 코드를 변경하지 않고 새로운 command를 만들 수 있다. (OCP 원칙)
+    - 요청을 처리하는 코드가 변경되어도 호출자의 코드는 변경되지 않는다.
+    - command 객체를 로깅, 영속화, 네트워크 전송 등 다양한 방법으로 활용할 수 있다.
+    - 코드가 복잡하고 클래스가 많아진다.
+
+3. Strategy Pattern
     - 알고리즘군을 정의하고 각각을 캡슐화하여 교환에서 사용할 수 있도록 만든다.
     - 이 패턴을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.
 
-3. Observer Pattern
+4. Observer Pattern
     - 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식이다.
     - 일대다(one-to-many, subject or publisher(1) : observer(N)) 의존성을 정의한다.
