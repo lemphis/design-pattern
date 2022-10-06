@@ -103,10 +103,17 @@
     - 기존 코드를 변경하지 않고 새로운 expression을 추가할 수 있다. (OCP 원칙)
     - 복잡한 문법을 표현하려면 expression과 parser가 복잡해진다.
 
-4. Strategy Pattern
+4. Iterator Pattern
+    - 집합 객체 내부 구조를 노출시키지 않고 순회하는 방법을 제공하는 pattern
+    - 집합 객체를 순회하는 client 코드를 변경하지 않고 다양한 순회 방법을 제공할 수 있다.
+    - 집합 객체가 가지고 있는 객체들에 손쉽게 접근할 수 있다.
+    - 일관된 interface를 사용해 여러 형태의 집합 구조를 순회할 수 있다.
+    - class가 늘어나고 복잡도가 증가한다.
+
+5. Strategy Pattern
     - 알고리즘군을 정의하고 각각을 캡슐화하여 교환에서 사용할 수 있도록 만든다.
     - 이 패턴을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.
 
-5. Observer Pattern
+6. Observer Pattern
     - 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식이다.
     - 일대다(one-to-many, subject or publisher(1) : observer(N)) 의존성을 정의한다.
