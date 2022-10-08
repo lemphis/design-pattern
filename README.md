@@ -117,10 +117,16 @@
     - 각각의 component 코드를 보다 간결하게 유지할 수 있다.
     - mediator 역할을 하는 class의 복잡도와 결합도가 증가한다.
 
-6. Strategy Pattern
+6. Memento Pattern
+    - 캡슐화를 유지하면서 객체 내부 상태를 외부에 저장하는 pattern
+    - 객체 상태를 외부에 저장했다가 해당 상태로 다시 복구할 수 있다.
+    - originator가 변경되어도 client 코드는 변경되지 않는다.
+    - memento 객체가 많은 정보를 저장해야 하거나 자주 생성해야 한다면 메모리 사용량애 영향을 줄 수 있다.
+
+7. Strategy Pattern
     - 알고리즘군을 정의하고 각각을 캡슐화하여 교환에서 사용할 수 있도록 만든다.
     - 이 패턴을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.
 
-7. Observer Pattern
+8. Observer Pattern
     - 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식이다.
     - 일대다(one-to-many, subject or publisher(1) : observer(N)) 의존성을 정의한다.
