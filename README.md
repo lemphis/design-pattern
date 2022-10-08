@@ -110,10 +110,17 @@
     - 일관된 interface를 사용해 여러 형태의 집합 구조를 순회할 수 있다.
     - class가 늘어나고 복잡도가 증가한다.
 
-5. Strategy Pattern
+5. Mediator Pattern
+    - 여러 객체들이 소통하는 방법을 캡슐화하는 pattern
+    - 여러 component 간의 결합도를 mediator를 통해 낮출 수 있다.
+    - component 코드를 변경하지 않고 새로운 mediator를 만들어 사용할 수 있다.
+    - 각각의 component 코드를 보다 간결하게 유지할 수 있다.
+    - mediator 역할을 하는 class의 복잡도와 결합도가 증가한다.
+
+6. Strategy Pattern
     - 알고리즘군을 정의하고 각각을 캡슐화하여 교환에서 사용할 수 있도록 만든다.
     - 이 패턴을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.
 
-6. Observer Pattern
+7. Observer Pattern
     - 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식이다.
     - 일대다(one-to-many, subject or publisher(1) : observer(N)) 의존성을 정의한다.
