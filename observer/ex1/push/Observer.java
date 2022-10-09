@@ -1,4 +1,4 @@
-package observer.push;
+package observer.ex1.push;
 
 public interface Observer {
 

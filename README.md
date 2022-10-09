@@ -123,10 +123,17 @@
     - originator가 변경되어도 client 코드는 변경되지 않는다.
     - memento 객체가 많은 정보를 저장해야 하거나 자주 생성해야 한다면 메모리 사용량애 영향을 줄 수 있다.
 
-7. Strategy Pattern
+7. Observer Pattern
+    - 다수의 객체가 특정 객체 상태 변화를 감지하고 알림을 받는 pattern
+    - 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식이다.
+    - 일대다(one-to-many, subject or publisher(1) : observer(N)) 의존성을 정의한다.
+    - 상태를 변경하는 객체(publisher)와 변경을 감지하는 객체(subscriber)의 관계를 느슨하게 유지할 수 있다.
+    - subject의 상태 변경을 주기적으로 조회하지 않고 자동으로 감지할 수 있다.
+    - runtime에 observer를 추가하거나 제거할 수 있다.
+    - 복잡도가 증가한다.
+    - 다수의 observer 객체를 등록 후 해제하지 않는다면 memory leak이 발생할 수 있다.
+
+8. Strategy Pattern
     - 알고리즘군을 정의하고 각각을 캡슐화하여 교환에서 사용할 수 있도록 만든다.
     - 이 패턴을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.
 
-8. Observer Pattern
-    - 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식이다.
-    - 일대다(one-to-many, subject or publisher(1) : observer(N)) 의존성을 정의한다.
