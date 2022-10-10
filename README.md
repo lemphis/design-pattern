@@ -148,3 +148,12 @@
     - runtime에 strategy를 변경할 수 있다.
     - client가 구체적인 strategy를 알아야 한다.
 
+10. Template Method Pattern
+    - 알고리듬 구조를 sub class가 확장할 수 있도록 template으로 제공하는 pattern
+    - abstract class는 template를 제공하고 sub class는 구체적인 알고리듬을 제공한다.
+    - template code를 재사용하고 중복 코드를 줄일 수 있다.
+    - template code를 변경하지 않고 상속을 받아서 구체적인 알고리듬만 변경할 수 있다.
+    - 리스코프 치환 원칙(LSP)을 위반할 수도 있다. (template method를 제외한 method는 final keyword를 사용하여 막을 수 있음)
+    - > Template Callback Pattern (GoF가 정의한 pattern은 아님)
+      > - callback으로 상속 대신 위임을 사용하는 template pattern
+      > - 상속 대신 익명 내부 클래스 또는 람다 표현식을 활용할 수 있다.
