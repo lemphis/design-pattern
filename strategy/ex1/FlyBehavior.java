@@ -1,4 +1,4 @@
-package strategy;
+package strategy.ex1;
 
 public interface FlyBehavior {
 
