@@ -156,5 +156,10 @@
     - 리스코프 치환 원칙(LSP)을 위반할 수도 있다. (template method를 제외한 method는 final keyword를 사용하여 막을 수 있음)
     > [Template Callback Pattern](templatemethod/templatecallback) (GoF가 정의한 pattern은 아님)
     >
-    >  - callback으로 상속 대신 위임을 사용하는 template pattern  
+    >  - callback으로 상속 대신 위임을 사용하는 template pattern
     >  - 상속 대신 익명 내부 클래스 또는 람다 표현식을 활용할 수 있다.
+
+11. [Visitor Pattern](visitor)
+    - 기존 코드를 변경하지 않고 새로운 기능을 추가하는 pattern
+    - double dispatch를 활용할 수 있다.
+    - element에 변경 사항이 생기면 element interface와 구현체들을 전부 수정해야 한다.
